@@ -11,7 +11,7 @@ public class ProgramaImpar {
         System.out.println("Digite uma palavra: ");
         String nome1 = leitor.next();
         System.out.println("Caracteres no indice impar são: ");
-         for (int i = 0; i <= (nome1.length()-1); i = i + 2){
+         for (int i = 1; i <= (nome1.length()-1); i = i + 2){
             System.out.print(nome1.charAt(i));
          }
          
